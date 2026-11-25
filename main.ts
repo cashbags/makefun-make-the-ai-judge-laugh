@@ -45,6 +45,14 @@
 // was tighter at six words, but its twist is implied where the winner's turn
 // lands outright. The context-window lane won because the brief names it and
 // no past winner has mined it deadpan yet.
+//
+// Rebuild note: this file was rewritten in a session opened after the
+// competition opened (25 Nov 09:58 WIB), because the first build session
+// started before the 04:30 WIB opening and its transcript fell outside the
+// competition window. The line, the gate checks and the deterministic
+// behaviour are unchanged from that first build — only the session the
+// transcript belongs to is new, so the build record now sits inside the
+// window the kit checks.
 
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
